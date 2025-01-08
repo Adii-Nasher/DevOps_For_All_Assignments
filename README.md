@@ -16,4 +16,4 @@ The repository is organized into separate branches, each corresponding to a diff
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Adii-Nasher/Terraform_Assignment.git
+   git clone https://github.com/Adii-Nasher/DevOps_For_All_Assignments.git
