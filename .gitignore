@@ -1,0 +1,41 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore backup files created by Terraform
+*.tfplan
+*.tfvars
+
+# Ignore the .terraform directory where Terraform keeps plugins and modules
+.terraform/
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files
+override.tf
+override.tf.json
+
+# Ignore local Terraform environment files
+*.tfvars.json
+*.tfenv
+
+# Ignore Terraform lock files (for versions prior to 0.14)
+.terraform.lock.hcl
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore local binary files or executables
+*.exe
+*.bak
+*.swp
+
+# Ignore files for CI/CD pipeline secrets (optional)
+secrets.tfvars
+
+# Ignore sensitive files
+*.key
+*.pem
+*.pub
