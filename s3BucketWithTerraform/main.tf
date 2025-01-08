@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "bucket" {
 resource "aws_s3_object" "home_object" {
   bucket          = aws_s3_bucket.bucket.id  # Reference to the S3 bucket
   key             = "home.html"  # Object key name
-  source          = "home.html"  # Source file on the local machine
+  source          = "data/home.html"  # Source file on the local machine
   content_type    = "text/html"  # Content type of the object
   content_disposition = "inline"  # Display inline in browser
 }
@@ -16,7 +16,7 @@ resource "aws_s3_object" "home_object" {
 resource "aws_s3_object" "BadResponse_object" {
   bucket          = aws_s3_bucket.bucket.id  # Reference to the S3 bucket
   key             = "BadResponse.html"  # Object key name
-  source          = "BadResponse.html"  # Source file on the local machine
+  source          = "data/BadResponse.html"  # Source file on the local machine
   content_type    = "text/html"  # Content type of the object
   content_disposition = "inline"  # Display inline in browser
 }

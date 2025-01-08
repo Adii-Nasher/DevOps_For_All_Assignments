@@ -25,5 +25,5 @@ This Terraform configuration defines an Amazon S3 bucket for static website host
    terraform apply
    ```   
 5. **Sample Output**:
-   ![alt text](image.png)
-   ![alt text](image-1.png)
+   ![alt text](data/HomeHtml.png)
+   ![alt text](data/BadResponseHtml.png)
